@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "739636761313",
+    "firebase_url": "https://pos-point-of-sale-616da.firebaseio.com",
+    "project_id": "pos-point-of-sale-616da",
+    "storage_bucket": "pos-point-of-sale-616da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739636761313:android:a27c939fe33c4f2d4bdda0",
+        "android_client_info": {
+          "package_name": "com.example.pospointofsale"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739636761313-26ac2p3bf74lktb34g3tlei9ep9pj6sk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAt8Zl65rSmNyKNTQjxzlUciA_b4hwtVyw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "739636761313-26ac2p3bf74lktb34g3tlei9ep9pj6sk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

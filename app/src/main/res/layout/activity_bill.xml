@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.bill">
+
+    <EditText
+        android:id="@+id/cu_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_editetext"
+        android:drawableLeft="@drawable/ic_perm_"
+        android:drawablePadding="10dp"
+        android:hint="customer_name"
+        android:inputType="text"
+        android:padding="12dp"
+        android:textColor="@color/colorGrey2"
+        android:textColorHint="@color/colorGrey"
+        app:layout_constraintBottom_toTopOf="@+id/generate_bill"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.089"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <EditText
+        android:id="@+id/cu_mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_editetext"
+        android:drawableLeft="@drawable/ic_perm_"
+        android:drawablePadding="10dp"
+        android:hint="customer_mobile"
+        android:inputType="text"
+        android:padding="12dp"
+        android:textColor="@color/colorGrey2"
+        android:textColorHint="@color/colorGrey"
+        app:layout_constraintBottom_toTopOf="@+id/generate_bill"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.223"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/generate_bill"
+        android:layout_width="150dp"
+        android:layout_height="32dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/rounded_green2"
+        android:gravity="center"
+        android:text="generate bill"
+        android:textColor="@color/colorWhite"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

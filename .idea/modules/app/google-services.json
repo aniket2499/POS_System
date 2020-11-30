@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "275207286459",
+    "firebase_url": "https://pospoint-of-sale.firebaseio.com",
+    "project_id": "pospoint-of-sale",
+    "storage_bucket": "pospoint-of-sale.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275207286459:android:63a4069e3f8dff1d27839e",
+        "android_client_info": {
+          "package_name": "com.example.pospointofsale"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275207286459-4b1nptj44kiu8h6t5m7svf7ol7df4u8n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pospointofsale",
+            "certificate_hash": "d867a65c5e3787a4ad5251a047484c95354f41f5"
+          }
+        },
+        {
+          "client_id": "275207286459-dcd50ji2bvv37ka75nemeec3u7sn6bk4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpJYXD6z2rs9x4VGjWNtHbr7rksKunfys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275207286459-dcd50ji2bvv37ka75nemeec3u7sn6bk4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

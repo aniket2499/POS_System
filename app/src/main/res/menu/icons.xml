@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/order"
+    android:enabled="true"
+    android:icon="@drawable/order"
+    android:title="order"
+    app:showAsAction="ifRoom"
+
+
+    />
+    <item
+        android:id="@+id/setting"
+        android:enabled="true"
+        android:icon="@drawable/setting"
+        android:title="setting"
+        app:showAsAction="ifRoom"
+
+
+        />
+
+    <item
+        android:id="@+id/states"
+        android:enabled="true"
+        android:icon="@drawable/states"
+        android:title="states"
+        app:showAsAction="ifRoom"
+
+
+        />
+    <item
+        android:id="@+id/customers"
+        android:enabled="true"
+        android:icon="@drawable/customers"
+        android:title="states"
+        app:showAsAction="ifRoom"
+
+
+        />
+    <item
+        android:id="@+id/bills"
+        android:enabled="true"
+        android:icon="@drawable/bills_24"
+        android:title="bills"
+        app:showAsAction="ifRoom"
+
+
+        />
+</menu>

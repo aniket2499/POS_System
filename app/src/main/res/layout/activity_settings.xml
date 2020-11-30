@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.settings">
+
+    <TextView
+        android:id="@+id/ed_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_editetext"
+        android:drawableLeft="@drawable/ic_perm_"
+        android:drawablePadding="10dp"
+        android:hint="Username"
+        android:padding="12dp"
+        android:textColor="@color/colorGrey2"
+        android:textColorHint="@color/colorGrey"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="87dp" />
+
+    <TextView
+        android:id="@+id/ed_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:background="@drawable/rounded_editetext"
+        android:drawableLeft="@drawable/ic_perm_"
+        android:drawablePadding="10dp"
+        android:hint="email"
+        android:padding="12dp"
+        android:textColor="@color/colorGrey2"
+        android:textColorHint="@color/colorGrey"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/ed_company_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="168dp"
+        android:background="@drawable/rounded_editetext"
+        android:drawableLeft="@drawable/ic_perm_"
+        android:drawablePadding="10dp"
+        android:hint="company_name"
+        android:padding="12dp"
+        android:textColor="@color/colorGrey2"
+        android:textColorHint="@color/colorGrey"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/btn_sign_out"
+        android:layout_width="128dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="48dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:gravity="center"
+        android:text="Sign out"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ed_company_name"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

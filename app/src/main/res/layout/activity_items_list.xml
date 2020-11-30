@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:clipChildren="false"
+    tools:context=".activities.items_list">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/lvlbacket"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:clickable="true"
+        tools:ignore="UnknownId">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/my_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="730dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="4dp"
+            android:clickable="true"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:id="@+id/lvl_notfound"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/image" />
+
+            <TextView
+                android:id="@+id/txt_notfound"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:padding="5dp"
+                android:text="@string/app_name"
+                android:textSize="21dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/add_new"
+            android:layout_width="150dp"
+            android:layout_height="34dp"
+            android:layout_alignEnd="@+id/my_recycler_view"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+
+            android:layout_marginStart="35dp"
+            android:layout_marginEnd="210dp"
+            android:layout_marginBottom="31dp"
+            android:background="@drawable/rounded_green2"
+            android:gravity="center"
+            android:text="add"
+            android:textColor="@color/colorWhite"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/home"
+            android:layout_width="150dp"
+            android:layout_height="34dp"
+            android:layout_alignEnd="@+id/my_recycler_view"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+
+            android:layout_marginStart="224dp"
+            android:layout_marginEnd="21dp"
+            android:layout_marginBottom="33dp"
+            android:background="@drawable/rounded_green2"
+            android:gravity="center"
+            android:text="home"
+            android:textColor="@color/colorWhite"
+            android:textSize="18dp" />
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

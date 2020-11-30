@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:clipChildren="false"
+    tools:context=".activities.items_list">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/lvlbacket"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:orientation="vertical"
+        tools:ignore="UnknownId">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/my_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="594dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="172dp"
+            android:clickable="true"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:id="@+id/lvl_notfound"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/image" />
+
+            <TextView
+                android:id="@+id/txt_notfound"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:padding="5dp"
+                android:text="@string/app_name"
+                android:textSize="21dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/add_new"
+            android:layout_width="104dp"
+            android:layout_height="33dp"
+            android:layout_alignEnd="@+id/my_recycler_view"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="282dp"
+            android:layout_marginBottom="73dp"
+            android:background="@drawable/rounded_green2"
+            android:gravity="center"
+            android:text="save"
+            android:textColor="@color/colorWhite"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/scan"
+            android:layout_width="105dp"
+            android:layout_height="38dp"
+            android:layout_alignEnd="@+id/my_recycler_view"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="282dp"
+            android:layout_marginBottom="117dp"
+            android:background="@drawable/rounded_green2"
+            android:gravity="center"
+            android:text="scan"
+            android:textColor="@color/colorWhite"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/generate_bill"
+            android:layout_width="104dp"
+            android:layout_height="33dp"
+            android:layout_alignEnd="@+id/my_recycler_view"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="283dp"
+            android:layout_marginBottom="26dp"
+            android:background="@drawable/rounded_green2"
+            android:gravity="center"
+            android:text="bill"
+            android:textColor="@color/colorWhite"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="172dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="-133dp"
+            android:layout_marginEnd="46dp"
+            android:layout_marginBottom="79dp"
+            android:fontFamily="@font/coresans_cr_medium"
+            android:padding="5dp"
+            android:text="Price."
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="172dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="46dp"
+            android:layout_marginBottom="52dp"
+            android:fontFamily="@font/coresans_cr_medium"
+            android:padding="5dp"
+            android:text="Total quantity"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
