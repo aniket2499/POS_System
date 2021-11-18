@@ -4,5 +4,5 @@
 1.2 PURPOSE 
 The main purpose of this project is to provide the easy experience to the retailers . so that they can maintain and store their records of their goods in their shop easily . They can perform multiple tasks from a single device instead of having different devices for different tasks. They can also reduce the time and labour cost for maintaining the records in our application instead of maintaining it manually. 
 
-
-
+Link of the Demo:
+https://drive.google.com/file/d/1CpjRdptydgEQHxzUp3No2OD-8lpdMH4Q/view?usp=sharing
